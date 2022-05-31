@@ -61,7 +61,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What is the license for this project?",
-    choices: ["Apache 2", "MIT", "GPL", "BSD", "Unlicensed", "Other"],
+    choices: ["Apache_2", "MIT", "GPL", "BSD", "Unlicensed", "Other"],
     validate: function(input) {
       const done = this.async();
       return requiredParameter(done, input, "A license section is required.");
@@ -93,8 +93,6 @@ const questions = [
       done(null, true);
     }
   },
-
-
 ];
 
 function writeToFile(filename, data) {
