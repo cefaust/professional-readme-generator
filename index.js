@@ -26,7 +26,7 @@ const questions = [
     }
   },
   {
-    type: "editor",
+    type: "input",
     name: "description",
     message: "Please describe your project.",
     validate: function(input) {
@@ -35,12 +35,12 @@ const questions = [
     }
   },
   {
-    type: "editor",
+    type: "input",
     name: "installationInstruction",
     message: "Please give installation instructions if any.",
   },
   {
-    type: "editor",
+    type: "input",
     name: "usageInstructions",
     message: "Please include how to use this app.",
     validate: function(input) {
@@ -49,7 +49,7 @@ const questions = [
     }
   },
   {
-    type: "editor",
+    type: "input",
     name: "credits",
     message: "Please list all contributors including self.",
     validate: function(input) {
@@ -68,12 +68,12 @@ const questions = [
     }
   },
   {
-    type: "editor",
+    type: "input",
     name: "contribute",
     message: "Do you want any contributions and if so, what are the guidelines?",
   },
   {
-    type: "editor",
+    type: "input",
     name: "test",
     message: "Please provide examples of tests for you app.",
   },

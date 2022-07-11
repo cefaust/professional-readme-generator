@@ -13,4 +13,5 @@ I am creating this project to allow users to have a template to create a profess
 6. Users will add a GitHub link to the question's section that will allow others to contact them with questions.
 7. Users will be able to click on the Table of contents and jump to that section.
 
-[YouTube](https://youtu.be/kMzNXDZCnG0)
+[YouTube](https://youtu.be/ri5LbiVCYrE)
+[GitHub pages](https://github.com/cefaust/professional-readme-generator)
